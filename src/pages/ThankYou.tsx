@@ -8,6 +8,17 @@ export function ThankYou() {
     const navigate = useNavigate();
 
     useEffect(() => {
+        // Trigger generic lead event for Google Ads
+        // Note: For specific conversion tracking, a Conversion Label (e.g., AW-11223459182/AbC...) is usually required.
+        // Using 'generate_lead' as a standard event.
+        if (typeof window !== 'undefined' && (window as any).gtag) {
+            (window as any).gtag('event', 'generate_lead', {
+                'send_to': 'AW-11223459182'
+            });
+        }
+    }, []);
+
+    const handleBack = () => {
         // Track Lead event when user lands on Thank You page
         // @ts-ignore
         if (typeof window.fbq === 'function') {
