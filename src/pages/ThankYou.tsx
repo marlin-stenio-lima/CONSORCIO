@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import { CheckCircle2, ArrowRight } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 import { Button } from "../components/ui/Button";
 import { useNavigate } from "react-router-dom";
 
