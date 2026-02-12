@@ -339,7 +339,7 @@ export function HomeConsorcio() {
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                                 <div className="absolute bottom-10 left-10">
                                     <p className="font-black text-white text-3xl">Messias Pires</p>
-                                    <p className="text-[#ffb100] font-bold tracking-wide uppercase text-sm mt-2">Consultor Oficial Magalu</p>
+                                    <p className="text-[#ffb100] font-bold tracking-wide uppercase text-sm mt-2">Gestor de Consórcio</p>
                                 </div>
                             </div>
                         </div>
@@ -373,16 +373,6 @@ export function HomeConsorcio() {
                                 </ul>
                             </div>
 
-                            <div className="grid grid-cols-2 gap-6">
-                                <div className="p-6 bg-white/5 rounded-3xl border border-white/10 hover:bg-white/10 transition-colors">
-                                    <p className="text-4xl font-black text-[#ffb100] mb-2">+500</p>
-                                    <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">Sonhos Realizados</p>
-                                </div>
-                                <div className="p-6 bg-white/5 rounded-3xl border border-white/10 hover:bg-white/10 transition-colors">
-                                    <p className="text-4xl font-black text-[#ffb100] mb-2">10 Anos</p>
-                                    <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">De Experiência</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
